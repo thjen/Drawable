@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center">
+
+    <CheckBox
+        android:button="@drawable/selected_checkbox"
+        android:textSize="20sp"
+        android:text="Hi"
+        android:layout_marginLeft="10dp"
+        android:layout_gravity="left"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <CheckBox
+        android:button="@drawable/selected_checkbox"
+        android:textSize="20sp"
+        android:text="Hello"
+        android:layout_marginLeft="10dp"
+        android:layout_gravity="left"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"/>
+
+    <Button
+        android:layout_marginLeft="10dp"
+        android:layout_gravity="left"
+        android:background="@drawable/custom1"
+        android:textSize="20sp"
+        android:id="@+id/btCLick1"
+        android:textAllCaps="false"
+        android:text="Click 1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <EditText
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"
+        android:background="@drawable/custom1"
+        android:layout_marginTop="15dp"
+        android:textSize="20sp"
+        android:hint="Input"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <ProgressBar
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"
+        android:progressDrawable="@drawable/custom_progressbar"
+        android:progress="35"
+        android:max="100"
+        android:secondaryProgress="60"
+        android:layout_marginTop="50dp"
+        style="@android:style/Widget.ProgressBar.Horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>
