@@ -56,4 +56,21 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content" />
 
+    <SeekBar
+        android:minHeight="15dp"
+        android:minWidth="15dp"
+        android:maxHeight="15dp"
+        android:maxWidth="15dp"
+        android:thumb="@drawable/custom_seekbar_thumb"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"
+        android:progressDrawable="@drawable/custom_seekbar"
+        android:max="100"
+        android:secondaryProgress="60"
+        android:progress="35"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/seekBar" />
+
 </LinearLayout>
