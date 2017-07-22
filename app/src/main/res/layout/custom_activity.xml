@@ -57,10 +57,10 @@
         android:layout_height="wrap_content" />
 
     <SeekBar
-        android:minHeight="15dp"
-        android:minWidth="15dp"
-        android:maxHeight="15dp"
-        android:maxWidth="15dp"
+        android:minHeight="5dp"
+        android:minWidth="5dp"
+        android:maxHeight="5dp"
+        android:maxWidth="5dp"
         android:thumb="@drawable/custom_seekbar_thumb"
         android:layout_marginRight="10dp"
         android:layout_marginLeft="10dp"
